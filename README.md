@@ -1,24 +1,21 @@
-# SN-Landing-Page    
+## r-p
+- reactを用いたサンプルアプリ
 
-### DEMO is [here](https://nordicgiant2.github.io/snlp-page/)
+## 起動
+- docker未使用
 
-![img](https://github.com/nordicgiant2/sn-landing-page/blob/master/image/01.jpg?raw=true)
-
-# About [`particles-bg`](https://github.com/lindelof/particles-bg) library
-#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg). It's very simple. Anyone can be a Musketeer with it.
-
-![img](https://github.com/lindelof/particles-bg/raw/master/image/01.jpg?raw=true)
-
-## Run Project
-### 1. Clone the project
-
-### 2. Run the project
-```shell
-npm i
-npm start
+```bash
+# packageインストール
+$ npm ci
+# 開発サーバー起動
+$ npm start
 ```
 
-### 3. BUild
-```shell
-npm run build
+- docker利用
+
+```bash
+$ docker-compose build
+$ docker-compose up -d
 ```
+
+- localhost:3000にアクセス
