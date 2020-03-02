@@ -8,23 +8,6 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      darkBackgroundModes: [
-        'day',
-        'terminal',
-        'torquoise',
-        'alizarin',
-        'amythyst',
-        'carrot',
-        'peterriver'
-      ],
-      lightBackgroundModes: [
-        'night',
-        'lightred',
-        'lightpurple',
-        'lightgreen',
-        'lightblue',
-        'lightyellow'
-      ],
       backgroundType: Configs.backgroundType || 'plain',
       appClass: Configs.plainBackgroundMode || 'daylight',
       devIntro: Configs.devIntro || 't-o-d Portfolio',
