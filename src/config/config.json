@@ -2,7 +2,7 @@
   "backgroundType": "plain",
   "plainBackgroundMode": "daylight",
   "devIntro": "t-o-d",
-  "devDesc": "HTML | CSS | Javascript | Vue.js | svelte | Docker | PHP ",
+  "devDesc": "HTML | CSS | Javascript | Vue.js | PHP | Docker | Redis | AWS(EC2,S3,ECR,Quicksight)",
   "icons": [
     {
       "image": "fab fa-github",
