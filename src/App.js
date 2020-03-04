@@ -3,6 +3,7 @@ import Typist from 'react-typist';
 import './styles/App.css';
 import Configs from './config/config.json';
 import ParticlesBg from 'particles-bg'
+import Penguin from './images/penguin.webp'
 
 class App extends Component {
   constructor(props) {
@@ -10,7 +11,6 @@ class App extends Component {
     this.state = {
       backgroundType: Configs.backgroundType || 'plain',
       appClass: Configs.plainBackgroundMode || 'daylight',
-      devIntro: Configs.devIntro || 't-o-d Portfolio',
       devDesc:
         Configs.devDesc || 'info skill',
       backgroundMode: 'default',
@@ -22,7 +22,7 @@ class App extends Component {
 
   render() {
     const {
-      appClass, bgStyle, backgroundMode, devIntro, devDesc, icons
+      appClass, bgStyle, backgroundMode, devDesc, icons
     } = this.state;
 
     return (
@@ -33,7 +33,7 @@ class App extends Component {
           <main className="App-main">
             <ParticlesBg type="fountain" bg={true} />
             <div className="container">
-              <h1 className="intro">{devIntro}</h1>
+              <img src={Penguin} alt="profile"/>
               <div className="shell">I am Web Application Developer in Okinawa</div>
               <div className="tagline">
                 <Typist>{devDesc}</Typist>
