@@ -36,7 +36,7 @@ class App extends Component {
               <img src={Penguin} alt="profile"/>
               <div className="shell">I am Web Application Developer in Okinawa</div>
               <div className="tagline">
-                <Typist>{devDesc}</Typist>
+                <Typist avgTypingDelay={120}>{devDesc}</Typist>
               </div>
               
               <div className="icons-social">
