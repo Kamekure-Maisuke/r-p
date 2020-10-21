@@ -1,7 +1,7 @@
 tasks:
   - init: npm ci
     command: >
-      gp await 3000 &&
+      gp await-port 3000 &&
       gp preview $(gp url 3000) &&
       npm start
 
