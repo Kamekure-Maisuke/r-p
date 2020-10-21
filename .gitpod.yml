@@ -3,4 +3,9 @@ tasks:
     command: npm start
 ports:
   - port: 3000
-    onOpen: open-preview
+    onOpen: open-browser
+
+github:
+  prebuilds:
+    addComment: true
+    addBadge: true
