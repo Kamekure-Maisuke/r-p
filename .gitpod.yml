@@ -1,9 +1,13 @@
 tasks:
   - init: npm ci
-    command: npm start
+    command: >
+      gp await 3000 &&
+      gp preview $(gp url 3000) &&
+      npm start
+
 ports:
   - port: 3000
-    onOpen: open-preview
+    onOpen: ignore
 
 github:
   prebuilds:
