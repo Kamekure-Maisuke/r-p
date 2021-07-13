@@ -33,7 +33,11 @@ class App extends Component {
           <main className="App-main">
             <ParticlesBg type="fountain" bg={true} />
             <div className="container">
-              <img src={Penguin} alt="profile"/>
+              <ul>
+                <li><img src={Penguin} alt="profile"/></li>
+                <li><img src={Penguin} alt="profile"/></li>
+                <li><img src={Penguin} alt="profile"/></li>
+              </ul>
               <div className="shell">I am Web Application Developer in Okinawa</div>
               <div className="tagline">
                 <Typist avgTypingDelay={120}>{devDesc}</Typist>

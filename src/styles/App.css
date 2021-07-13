@@ -21,6 +21,15 @@
   border-radius: 10px;
 }
 
+.container ul {
+  display: flex;
+  justify-content: center;
+}
+
+.container ul li {
+  list-style: none;
+}
+
 .shell{
   background-color: #282c34;
   padding: 4px 25px;
