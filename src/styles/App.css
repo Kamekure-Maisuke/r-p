@@ -30,6 +30,19 @@
   list-style: none;
 }
 
+/* 画像回転アニメーション */
+.rotate {
+  animation: rotate_anime 4s linear infinite;
+}
+@keyframes rotate_anime {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 .shell{
   background-color: #282c34;
   padding: 4px 25px;

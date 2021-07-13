@@ -34,9 +34,9 @@ class App extends Component {
             <ParticlesBg type="fountain" bg={true} />
             <div className="container">
               <ul>
+                <li><img className="rotate" src={Penguin} alt="profile"/></li>
                 <li><img src={Penguin} alt="profile"/></li>
-                <li><img src={Penguin} alt="profile"/></li>
-                <li><img src={Penguin} alt="profile"/></li>
+                <li><img className="rotate" src={Penguin} alt="profile"/></li>
               </ul>
               <div className="shell">I am Web Application Developer in Okinawa</div>
               <div className="tagline">
